@@ -194,11 +194,11 @@ console.log(color('Wangsap :', 'cyan'), color(`085215319934`, 'yellow'))
 
                 if (anu.action == 'add') {
 
-                 *///* ky.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` }) *////*
+                  // ky.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
 
                 } else if (anu.action == 'remove') {
 
-                 *////*   ky.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` }) *////*
+                // ky.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` }) 
 
                 }
 
